@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+header{
+    background-color:#289ba8;
+    }
+nav.navbar{
+    text-align: right;
+    margin-left: 5%;
+    padding: 1%;
+    font-size: 1.5rem;
+}
+#navigationbar{
+    margin-left: 45%;
+}
+.presentation{
+    margin-bottom: 5em;
+    text-align: justify;
+}
+.title-presentation{
+    text-align: center;
+    background-color: black;
+    padding: 1em;
+    color: white;
+}
+.row{
+    color: white;
+    padding: 1em;
+    margin: 1em;
+}
+.col-md{
+    margin: 1em;
+    font-size: 20px;
+}
+.icon{
+    text-align: center;
+    background-color: #289ba8;
+    display: block;
+    margin-bottom: 0.5em;
+}
+hr{
+    border-top: 0.25em solid #289ba8;
+}
+.card{
+    background-color:#289ba8;
+}
+.card-body{
+    color: white;
+}
+footer {
+    text-align: right;
+    background-color: #289ba8;
+    color: white;
+    padding: 2em;
+}
+h3 {
+    text-align: left;
+    display: inline-block;
+    padding-left: 0em;
+    margin-left: 0em;
+    margin-right: 15em;
+}
+span{
+    font-weight: bold;
+    color: aqua;
+}
+.carousel-inner img {
+    width: 340px;
+    height: 720px;
+   }
+.footer-icons{
+    text-align: right;
+    display: inline-block;
+}
+footer, i{
+    padding: 0.15em;
+}
