@@ -2,9 +2,8 @@ body{
     background-color: rgb(236, 226, 226);
     color:black;
     font-family: 'Vollkorn', serif;
-    text-align: center;
     margin: 0%;
-    background-image: url("/assets/img/fondoverde.png");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,36 +14,69 @@ nav{
     padding: 0%;
     border: 0cm;
 }
+.nav-link{
+    font-size: 20px;
+}
+img{
+    padding: 0%;
+    margin: 0%;
+    size: 100%;
+}
 .title{
-    color:rgb(167, 218, 17);;
+    color:#230763;
+    text-shadow: #1ae0d0 20%;
+    text-align: center;
+    padding: 1.5%;
+    font-family: 'Vollkorn', serif;
+    font-size:10rem;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.hero-section h3{
+    width: 100%;
+    word-spacing: 2.5em;
+    color:#1ae0d0;
+    background-color: #1106acad;
+    text-align: center;
+    padding: 1.5%;
+    font-family: 'Vollkorn', serif;
+    font-size:1.5rem;
+    position: absolute;
+    top: 350px;
+    
+}
+.title2{
+    font-size: 1.7rem;
+    color: #1ae0d0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+div h3{
+    width: 100%;
+    color:white;
+    background-color: #1106acad;
     text-align: center;
     padding: 1.5%;
     font-family: 'Vollkorn', serif;
     font-size:2.5rem;
-    border:rgb(21, 192, 107) solid 5px;
-    border-radius: 15px;
-    border-style: double;
-    background-color: black;
-}
-.title2{
-    font-size: 1.7rem;
-    color: rgb(167, 218, 17);
-    border:rgb(21, 192, 107) solid 5px;
-    border-radius: 15px;
-    border-style: double;
-    background-color: black;
-    
 }
 .framework{
     width: 45%;
     height: 400px;
-    padding: 2%;
     font-size: 2rem;
     text-align: justify;
-    border:rgb(21, 192, 107) solid 5px;
-    border-radius: 15px;
-    border-style: double;
+    background-color: #191a19;
+    margin-top: 5%;
     
+}
+.iframes{
+    margin: 0% 5%;
+    text-align: center;
+    border: #1ae0d0 2px solid;
 }
 hr{
     border-top: 0.25em solid #289ba8;
@@ -54,9 +86,19 @@ section{
     
 }
 .card-text{
-    color: #191a19;
-    font-size: 1.2rem;
-    padding: 0% 10%;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: ;
+    font-size: 20px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.intro{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: ;
+    font-size: 20px;
+    padding: 5px;
 }
 footer{
     background-color:#343a40!important ;
