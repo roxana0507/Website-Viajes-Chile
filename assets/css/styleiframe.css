@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(236, 226, 226);
+    color:black;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    margin: 0%;
+    background-image: url("/assets/img/fondoverde.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #ff1b82;
+    text-shadow: #ffc0dc 2px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+}
+.title{
+    color:rgb(167, 218, 17);;
+    text-align: center;
+    padding: 1.5%;
+    font-family: 'Vollkorn', serif;
+    font-size:2.5rem;
+    border:rgb(21, 192, 107) solid 5px;
+    border-radius: 15px;
+    border-style: double;
+    background-color: black;
+}
+.title2{
+    font-size: 1.7rem;
+    color: rgb(167, 218, 17);
+    border:rgb(21, 192, 107) solid 5px;
+    border-radius: 15px;
+    border-style: double;
+    background-color: black;
+    
+}
+.framework{
+    width: 45%;
+    height: 400px;
+    padding: 2%;
+    font-size: 2rem;
+    text-align: justify;
+    border:rgb(21, 192, 107) solid 5px;
+    border-radius: 15px;
+    border-style: double;
+    
+}
+hr{
+    border-top: 0.25em solid #289ba8;
+}
+section{
+    display: inline;
+    
+}
+.card-text{
+    color: #191a19;
+    font-size: 1.2rem;
+    padding: 0% 10%;
+}
+footer{
+    background-color:#343a40!important ;
+    padding: 0%;
+    margin: 0%;
+    padding: 1%;
+}
+footer h3{
+    text-align: left;
+    padding-right: 30%;
+    color: aliceblue;
+    display: inline-block;
+    text-align: left;
+}
+.footer-icons i{
+    color: aliceblue;
+    
+}
+i:hover{
+    color: #289ba8;
+}

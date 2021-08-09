@@ -3,7 +3,6 @@ body{
 }
 nav.navbar{
     text-align: right;
-    margin-left: 5%;
     padding: 1%;
     font-size: 1.5rem;
     position: fixed;
@@ -11,7 +10,8 @@ nav.navbar{
     right: 0;
     left: 0;
     z-index: 1030;
-    background-color: transparent !important;
+    background-color: rgba(64, 224, 208, 0.199) !important;
+
 }
 header{
     color: white;
@@ -25,7 +25,6 @@ header{
 }
 .title-presentation{
     text-align: center;
-    background-color: black;
     padding: 1em;
     color: white;
 }
@@ -73,6 +72,29 @@ span{
     width: 340px;
     height: 720px;
    }
+#buttom{
+    border: green 5px solid;
+    text-align: center;
+    font-size: 30px;
+    padding: 3%;
+    margin: 1%;
+    background-image: url("/assets/img/pngtree-glitter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.boton{
+    color:#cbecc6;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 1%;
+    border-radius: 20px;
+    border-color: antiquewhite;
+}
+.boton:hover {
+    background-color: rgb(0, 217, 255);
+    border-radius: 20px;
+  }
+
 .footer-icons a{
     text-align: right;
     color: white;
