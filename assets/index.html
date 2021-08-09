@@ -20,21 +20,29 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"><img src="img/viajes.svg" width="30" height="30" alt="">Viajes Chile</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navigationbar">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Quienes Somos</a>
-                    <a class="nav-link" href="#">Destacados</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/viajes.svg" width="30" height="30" alt="">Viajes Chile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#presentation">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#featured">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+
     </header>
     <!-- Carusel-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -61,7 +69,7 @@
     <!-- Seccion de presentacion-->
     <div class="presentation container-fluid">
         <hr>
-        <h1 class="title-presentation">¿Quiénes somos?</h1>
+        <h1 id="presentation" class="title-presentation">¿Quiénes somos?</h1>
         <hr>
         <div class="row">
             <div class="col-md">
@@ -86,7 +94,7 @@
     <!-- featured-->
     <div class="presentation container-fluid">
         <hr>
-        <h1 class="title-presentation">Destacados</h1>
+        <h1 id="featured" class="title-presentation">Destacados</h1>
         <hr>
         <div class="card-deck">
             <div class="card">
@@ -123,25 +131,16 @@
      <!-- Formulario-->
      <div class="form container-fluid">
         <hr>
-        <h1 class="title-presentation">Contacto</h1>
+        <h1 id="contact" class="title-presentation">Contacto</h1>
         <hr>
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/esyltRwb?typeform-medium=embed-snippet" style="width: 70%; height: 300px; text-align: center;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/esyltRwb?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </body>
-<footer class="text-center dark">
+<footer class="text-center darK">
     <h3 class="text-uppercase ">Viajes Chile</h3>
     <section class="footer-icons">
-        <i class="fab fa-github-square fa-3x"></i>
-        <i class="fab fa-linkedin fa-3x"></i>
-        <i class="fab fa-twitter-square fa-3x"></i>
-        <i class="fab fa-facebook-square fa-3x"></i>
+        <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter-square fa-3x"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
     </section>
 </footer>
 
